@@ -1,3 +1,6 @@
+<head>
+<title>Belo Horizonte</title> 
+</head>
 <h1>Belo Horizonte</h1>
 
 <div>
