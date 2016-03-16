@@ -85,6 +85,8 @@ h1 {
   margin: 40px 0 50px 0;
 }
 
+/*===Modalidades====*/
+
 .lista-modalidades {
   display: flex;
   justify-content: space-between;

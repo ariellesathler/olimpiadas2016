@@ -1,6 +1,6 @@
 <?php
 
-  require_once("include/conexao.php");
+  //require_once("include/conexao.php");
   require_once("include/tratamentos.php");
 
 ?>
