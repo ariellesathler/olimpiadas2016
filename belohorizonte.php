@@ -1,6 +1,6 @@
 <h1>Belo Horizonte</h1>
 
-<div>
+<div class="texto-bh">
     <h2>Sobre</h2>
     <p>
         Belo Horizonte é a moderna capital de Minas Gerais fundada em 12 de dezembro de 1897 atualmente é a 5ª mais populosa cidade brasileira. A cidade é mundialmente conhecida e exerce significativa influência nacional e até internacional, seja do ponto de vista cultural, econômico ou político. 

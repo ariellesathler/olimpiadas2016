@@ -4,7 +4,7 @@
 	<article>
 		<img src="images/mineirao.jpg" alt="">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non dapibus augue. Aliquam vitae mauris sed nisl aliquam cursus et id diam. Ut eleifend egestas nulla vitae vehicula. Cras suscipit enim nec augue tincidunt, quis sagittis nibh efficitur. Vivamus in dignissim eros, eu placerat libero. Suspendisse et finibus nisl. Ut vitae blandit augue, nec aliquet sem.</p>
-		<p><a href="?pagina=belohoizonte">Clique aqui e saiba mais</a></p>
+		<p><a href="?pagina=belohorizonte">Clique aqui e saiba mais</a></p>
 	</article>
 </div>
 

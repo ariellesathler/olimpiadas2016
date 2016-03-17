@@ -158,6 +158,30 @@ h1 {
       margin: 0 0 20px 0;
     }
 
+/*===Belo Horizonte====*/
+.texto-bh {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+    .texto-bh h2 {
+      color: #EE6352;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+      .texto-bh h2::before{
+          content: '»';
+          margin-right: 10px;
+      }
+    .texto-bh p {
+      color: #212121;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+
 .faq {
   padding: 70px 0
 }
