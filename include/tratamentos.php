@@ -22,8 +22,17 @@
     break;
 
     case "modalidade":
-      $titulo = "Vôlei de Praia";
+      $titulo = "Modalidade";
     break;
+
+    case "belohorizonte":
+      $titulo = "Belo Horizonte";
+    break;
+
+    case "ajuda":
+      $titulo = "Ajuda";
+    break;
+
 
   }
 
