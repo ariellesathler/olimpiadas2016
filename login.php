@@ -17,8 +17,9 @@
             </label> 
             <br>
             <label> 
-                <input type="button" value="Enviar" /> 
+               <a href="?pagina=minha_area">Enviar</a>
             </label> 
+            
         </div> 
     </form> 
 </body> 

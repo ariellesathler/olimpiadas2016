@@ -44,6 +44,8 @@
           <li><a href="?pagina=ajuda">Ajuda</a></li>
           <li class="divisor">|</li>
           <li><a href="?pagina=login">Login</a></li>
+          <li class="divisor">|</li>
+          <li><a href="?pagina=ingressos">Ingressos</a></li>
         </ul>
 
         <div class="clearfix">
