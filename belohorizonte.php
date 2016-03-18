@@ -8,6 +8,7 @@
 
     <h2>Minerão</h2>
 
+    <img src="images/mineirao.jpg" alt="">
     <p>
         Construído em 1965 e frequentemente utilizado para grandes competições nacionais e internacionais de futebol, o Mineirão foi totalmente reformado para a Copa do Mundo FIFA 2014 e tem capacidade bruta para 69.900 espectadores.. O estádio fica localizado próximo à Lagoa da Pampulha e a diversos monumentos projetados pelo arquiteto Oscar Niemeyer – juntas, as atrações compõem uma das regiões mais belas da cidade de Belo Horizonte.
     </p>

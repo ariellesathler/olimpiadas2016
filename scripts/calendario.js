@@ -86,8 +86,8 @@ function calendario() {
     //Esse contador só iniciará quando o iCount for maior ou igual ao dia em que a semana inicia;
     var iMes = 1;
 
-    //Construindo o calendário, com 6 linhas:
-    for (var iLinha = 1; iLinha <= 6; iLinha++) {
+    //Construindo o calendário, com 5 linhas:
+    for (var iLinha = 1; iLinha <= 5; iLinha++) {
         tabela += "<tr>"; // Abrindo a linha atual;
         for (var iCol = 1; iCol <= 7; iCol++) {
 
@@ -122,7 +122,12 @@ function calendario() {
         tabela += "</tr>"; // Fechando a linha atual;
     }
 
-    document.getElementById("calendario").innerHTML = "<table width='200px' border='1'>" + tabela + "</table>";
+    document.getElementById("calendario").innerHTML = "<table>"+
+    "<thead>"+
+    "<tr><td>dom</td><td>seg</td><td>ter</td><td>qua</td><td>qui</td><td>sex</td><td>sab</td></tr>"+
+    "</thead>"+
+    "<tbody>"+
+    tabela + "</tbody></table>";
 }
 
 function verEvento(v1, v2) {

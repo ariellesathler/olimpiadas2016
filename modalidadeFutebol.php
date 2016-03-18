@@ -1,4 +1,4 @@
-<h1>Vôlei de Praia</h1>
+<h1>Futebol</h1>
 
 <div class="texto-modalidade">
   <h2>Finalidade</h2>

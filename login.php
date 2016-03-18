@@ -1,24 +1,20 @@
-<head>
-    <title>Login</title>
-</head> 
-<body> 
-    <form name="loginForm" method="post"> 
-        <div> 
+
             <h1>LOGIN:</h1>
+    <form name="loginForm" class="login" method="post"> 
+        <div> 
             <br>
             <label> 
                 <span>Usuário</span> 
-                <input type="text" class="input_text" name="usuario" required/> 
             </label> 
+                <input type="text" class="input_text" name="usuario" required/> 
             <br>
             <label> 
                 <span>Senha</span> 
+            </label> 
                 <input type="password" class="input_text" name="senha" required/> 
-            </label> 
             <br>
-            <label> 
-                <input type="button" value="Enviar" /> 
-            </label> 
+                <input type="submit" value="Enviar" /> 
         </div> 
+
+        <div class="clearfix"></div>
     </form> 
-</body> 
