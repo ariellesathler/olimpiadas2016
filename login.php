@@ -1,6 +1,6 @@
 
             <h1>LOGIN:</h1>
-    <form name="loginForm" class="login" method="post"> 
+    <form name="loginForm" class="login" method="post" action="?pagina=minha_area"> 
         <div> 
             <br>
             <label> 
@@ -14,6 +14,7 @@
                 <input type="password" class="input_text" name="senha" required/> 
             <br>
                 <input type="submit" value="Enviar" /> 
+            
         </div> 
 
         <div class="clearfix"></div>
