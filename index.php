@@ -31,7 +31,7 @@
       <div class="wrap-center">
 
         <a href="index.php" class="logo">
-          <img src="images/logo.jpg" alt="Olimpíadas 2016" />
+          <img src="images/logo2016.png" alt="Olimpíadas 2016" />
         </a>
 
         <ul>

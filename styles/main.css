@@ -33,12 +33,16 @@ p {
 
 header.cabecalho {
   background:#EE6352;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
     header.cabecalho .logo {
       float: left;
-      margin-right: 40px;
+      margin-right: 20px;
+    }
+
+    header.cabecalho .wrap-center{
+      padding: 0px;
     }
 
     header.cabecalho ul {
@@ -53,7 +57,7 @@ header.cabecalho {
 
             header.cabecalho ul li a {
               color: #EFE9F4;
-              font-size: 18px;
+              font-size: 16px;
               font-weight: bold;
               display: block;
               text-transform: uppercase;

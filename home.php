@@ -3,7 +3,7 @@
 	<h2>Olimpíadas em BH</h2>
 	<article>
 		<img src="images/mineirao.jpg" alt="">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non dapibus augue. Aliquam vitae mauris sed nisl aliquam cursus et id diam. Ut eleifend egestas nulla vitae vehicula. Cras suscipit enim nec augue tincidunt, quis sagittis nibh efficitur. Vivamus in dignissim eros, eu placerat libero. Suspendisse et finibus nisl. Ut vitae blandit augue, nec aliquet sem.</p>
+		<p>Belo Horizonte é a moderna capital de Minas Gerais fundada em 12 de dezembro de 1897 atualmente é a 5ª mais populosa cidade brasileira. A cidade é mundialmente conhecida e exerce significativa influência nacional e até internacional, seja do ponto de vista cultural, econômico ou político. </p>
 		<p><a href="?pagina=belohorizonte">Clique aqui e saiba mais</a></p>
 	</article>
 </div>
