@@ -19,26 +19,22 @@
     </p>
 
     <h2>Hóteis</h2>
-    <p>
-      Allia Gran Hotel Pampulha Suites
-      Rua Intendente Câmara, 540
-      Pampulha
-      31 3311-0100
-      0800 283 9988
-      http://www.alliahotels.com.br/allia/belo-horizonte/allia-gran-hotel-pampulha-suites
+    <p style="text-align:left">
+        • <b>Allia Gran Hotel Pampulha Suites</b><br>
+        Rua Intendente Câmara, 540 - Pampulha<br>
+        CONTATOS: (31) 3311-0100 ou 0800-283-9988 | <a href="http://www.alliahotels.com.br/allia/belo-horizonte/allia-gran-hotel-pampulha-suites">Site</a>
+    </p>
 
-      Bristol Alameda Business Hotel
-      Avenida das Palmeiras, 743
-      Pampulha, São Luís
-      31 2522-4300
-      http://www.bristolhoteis.com.br/br/hotel/lazer.aspx?NumHotel=50
+    <p style="text-align:left">
+        • <b>Bristol Alameda Business Hotel</b><br>
+        Avenida das Palmeiras, 743 - Pampulha, São Luís<br>
+        CONTATOS: (31) 2522-4300 | <a href="http://www.bristolhoteis.com.br/br/hotel/lazer.aspx?NumHotel=50">Site</a>
+    </p>
 
-      Bristol Jaraguá Hotel
-      Rua Boaventura, 987
-      Pampulha, Jaraguá
-      31 3232-9700
-      0800 283 9988
-      http://www.alliahotels.com.br/bristol/belo-horizonte/jaragua-hotel
+    <p style="text-align:left">
+        • <b>Bristol Jaraguá Hotel</b><br>
+        Rua Boaventura, 987 - Pampulha, Jaraguá<br>
+        CONTATOS: (31) 3232-9700 ou 0800-283-9988 | <a href="http://www.alliahotels.com.br/bristol/belo-horizonte/jaragua-hotel">Site</a>
     </p>
     
 

@@ -3,30 +3,31 @@
 <div class="texto-modalidade">
   <h2>Finalidade</h2>
   <p>
-    Em uma quadra de areia dividida por uma rede, duas duplas se enfrentam, com o objetivo de fazer com que a bola toque a quadra do adversário
+    Voleibol de praia é um esporte praticado na areia da praia ou numa quadra de areia dividida em duas metades por uma rede.  Assim como no voleibol, o objetivo do jogo é jogar a bola por cima da rede para fazê-la cair na quadra do adversário, bem como evitar que o adversário consiga fazer o mesmo.
   </p>
 
   <h2>Composição da equipe</h2>
 
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at rhoncus urna. Morbi rhoncus mauris ligula, et faucibus erat pellentesque sit amet. Aenean mattis risus non quam eleifend, sit amet aliquet nulla commodo. Vestibulum a mauris et nisi rutrum dictum. Praesent blandit justo risus, vulputate commodo lectus tincidunt id. In luctus ultricies turpis. Curabitur nulla est, convallis eget iaculis nec, facilisis a est. Donec felis purus, malesuada eu fringilla sit amet, semper ut mauris. Cras malesuada massa eget arcu varius, nec egestas massa aliquet. Proin consequat leo nisl, a scelerisque enim ornare id.
+    Cada equipe é formada por uma dupla de atletas.
   </p>
 
   <h2>Regras</h2>
-
-  <p>
-    Sed bibendum id ipsum et consectetur. Etiam dictum orci ac neque egestas rutrum. Morbi venenatis blandit diam, nec varius dolor efficitur et. Fusce molestie erat vehicula vehicula porta. Nulla facilisi. Sed at justo scelerisque, pretium elit eget, sollicitudin diam. Quisque eget turpis venenatis metus cursus dignissim. Mauris efficitur posuere massa suscipit varius. Vivamus sapien ipsum, gravida et ante nec, fringilla tincidunt ligula. Phasellus pulvinar mauris non augue condimentum, quis fringilla velit porttitor. Proin eget nisl ut eros ultricies vehicula. Nulla vitae ultricies augue. Duis sodales pretium metus dapibus volutpat. Aenean feugiat sem odio, in facilisis ipsum tempus sit amet.vehicula. Nulla vitae ultricies augue. Duis sodales pretium metus dapibus volutpat. Aenean feugiat sem odio, in facilisis ipsum tempus sit amet.
-  </p>
+    <p>• Os fundamentos permitidos são os mesmo do vôlei de quadra: O saque, para iniciar a disputa por um ponto, o passe ou manchete, para receber a bola sacada, o levantamento, para levantar a bola e prepará-la para devolver ao campo adversário, o ataque, para tentar marcar um ponto, e o bloqueio, para tentar impedir o ponto adversário e devolver a bola ao outro campo.</p>
+    <p>• Os jogos são divididos em 5 sets normalmente, sendo cada set o conjunto da conquista de 21 pontos por uma equipe. Entretanto, é necessário que a equipe tenha uma diferença de 2 pontos sobre a adversária. Caso uma equipe alcance os 21 pontos, enquanto a outra tenha alcançado 20, o jogo prossegue até que a diferença seja obtida.</p>
+    <p>• É permitido que a bola encoste em qualquer parte do corpo do atleta durante o primeiro contato da equipe com a bola, como forma de defesa.</p>
+    <p>• O saque pode ser executado em qualquer região do fundo da quadra.</p>
+    <p>• Cada equipe tem direito a apenas dois três toques na bola antes de devolvê-la ao campo adversário, de forma que os jogadores não podem tocar a bola duas vezes seguidas.</p>
 
   <h2>Estréia nos Jogos Olímpicos</h2>
 
   <p>
-    Atlanta 1996
+      Sua estréia em Jogos Olímpicos foi em 1996 na cidade de Atlanta no Estados Unidos.
   </p>
 
   <h2>Provas</h2>
   <p>
-    Masculina e feminina
+    Masculina e feminina.
   </p>
 
 </div>
