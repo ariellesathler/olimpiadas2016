@@ -35,7 +35,7 @@
         </a>
 
         <ul>
-          <li><a href="?pagina=home">Página Principal</a></li>
+          <li><a href="?pagina=home">Página</a></li>
           <li class="divisor">|</li>
           <li><a href="?pagina=calendario">Calendário</a></li>
           <li class="divisor">|</li>
