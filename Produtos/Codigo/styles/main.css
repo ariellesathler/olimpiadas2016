@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.clearfix:before,.clearfix:after {
+  content:" ";
+  display:table
+}
+
+.clearfix:after {
+  clear:both
+}
+
+body {
+  color: #212121;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+  color: #212121;
+}
+
+header.cabecalho {
+  background:#EE6352;
+  padding: 10px 0;
+}
+
+    header.cabecalho .logo {
+      float: left;
+      margin-right: 20px;
+    }
+
+    header.cabecalho .wrap-center{
+      padding: 0px;
+    }
+
+    header.cabecalho ul {
+      float: right;
+      list-style: none;
+      margin-top: 85px;
+    }
+        header.cabecalho ul li {
+          float:left;
+          margin: 0 10px;
+        }
+
+            header.cabecalho ul li a {
+              color: #EFE9F4;
+              font-size: 16px;
+              font-weight: bold;
+              display: block;
+              text-transform: uppercase;
+
+              transition: background 300ms ease, color 300ms ease;
+              -webkit-transition: background 300ms ease, color 300ms ease;
+            }
+              header.cabecalho ul li a:hover {
+                  background:#EE6352;
+                  color: #FFF;
+              }
+
+            header.cabecalho ul li.divisor {
+                color: #FFF;
+            }
+
+.wrap-center {
+  margin:0 auto;
+  width: 1140px;
+  padding: 40px 0;
+}
+
+.wrap-left-home {
+  float: left;
+  width: 47%;
+}
+
+.wrap-right-home {
+  float: right;
+  width: 47%;   
+}
+
+.main {
+  min-height: 200px;
+  background:#FFF;
+}
+
+h1 {
+  color: #EE6352;
+  font-size: 28px;
+  margin: 40px 0 50px 0;
+}
+
+h2 {
+  color: #EE6352;
+  font-size: 28px;
+  margin: 40px 0 20px 0;
+}
+
+.texto-home {
+
+}
+
+.texto-home img {
+  width: 300px;
+  float: right;
+  margin: 0 0 10px 10px
+}
+
+/*===Modalidades====*/
+.lista-modalidades {
+}
+
+    .lista-modalidades a {
+      padding: 65px 0;
+      color: #FFF;
+      font-size: 22px;
+      display: block;
+      float: left;
+      font-weight: bold;
+      width: 48%;
+      box-sizing: box-sizing;
+      text-align: center;
+      margin: 0 2% 2% 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+      .lista-modalidades span {
+        text-align: center;
+        width: 100%;
+        color: #FFF;
+        font-size: 22px;
+        position: relative;
+        z-index: 100;
+        text-shadow: 0 0 4px #444;
+      }
+
+      .lista-modalidades a img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0.7;
+        transition: opacity 300ms ease;
+        -webkit-transition: opacity 300ms ease;
+      }
+
+        .lista-modalidades a:hover img {
+          opacity: 1;
+        }
+
+.texto-modalidade {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+
+    .texto-modalidade h2 {
+      color: #EE6352;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+
+      .texto-modalidade h2::before{
+          content: '»';
+          margin-right: 10px;
+      }
+
+    .texto-modalidade p {
+      color: #212121;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+
+/*===Belo Horizonte====*/
+.texto-bh {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+    .texto-bh h2 {
+      color: #EE6352;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+      .texto-bh h2::before{
+          content: '»';
+          margin-right: 10px;
+      }
+    .texto-bh p {
+      color: #212121;
+      font-size: 18px;
+      margin: 0 0 20px 0;
+    }
+
+.faq {
+}
+
+.wrap-accordion {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+  .wrap-accordion a {
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+    color:#00AEE6;
+  }
+    
+  .wrap-accordion p {
+    text-align: justify;
+  }
+
+    .wrap-accordion a img {
+      margin-right: 2px;
+      -webkit-transition: transform 300ms ease;
+      transition: transform 300ms ease;
+      margin-bottom: -6px;
+    }
+
+      .wrap-accordion a.active img {
+        transform: rotateZ(90deg);
+      }
+
+  .wrap-accordion article {
+    display: none;
+    padding: 10px 0;
+  }
+
+    .wrap-accordion article p {
+      font-size: 14px;
+    }
+
+/*==== Calendario ===== */
+
+.texto-calendario {
+  width: 100%;
+  text-align: center;
+}
+
+#calendario {
+  margin-top: 20px;
+}
+
+#calendario table {
+  margin: 0 auto;
+}
+
+#calendario table td {
+  border: 2px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  padding: 4px 8px;
+  width: 40px;
+}
+
+#calendario table td a {
+  color: #00AEE6;
+}
+
+/*==== forms ===== */
+
+form {
+  border: 1px solid #333;
+  padding: 15px 20px;
+}
+
+form.login {
+  width: 500px;
+}
+
+form.login label {
+  width: 120px;
+  display: inline-block;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="textare"] {
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  padding: 5px 20px;
+}
+
+form.login input[type="text"],
+form.login input[type="password"],
+form.login input[type="textare"] {
+  width: 280px;
+}
+
+form input[type="submit"] {
+  background-color: #00AEE6;
+  color: #FFF;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form.login input[type="submit"] {
+
+  float: right;
+  margin-right: 54px;
+}
+
+footer.rodape {
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFF;
+  background: #00AEE6;
+}
+
+  footer.rodape .redes{
+    margin: 0 auto;
+    display: inline-block;
+    clear: both;
+
+}
+  footer.rodape .redes li{
+    display: block;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 15px;
+  }
+    footer.rodape .redes li a{
+      display: block;
+      width: 40px;
+      height: 40px;
+      }
+    footer.rodape .redes .twitter{
+      background: transparent url("../images/footer-twitter.png") no-repeat 0 0;
+      
+    } 
+    footer.rodape .redes .facebook{
+      background: transparent url("../images/footer-facebook.png") no-repeat 0 0;
+    }
+
+    footer.rodape .redes .gplus{
+      background: transparent url("../images/footer-gplus.png") no-repeat 0 0;
+      display: block;
+      float: left;
+    }
