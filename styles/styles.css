@@ -1,4 +1,54 @@
+span{
+	font-weight: bold;
+	color: #62bb46;
+}
+	span ul li{
+		list-style: none;
+	}
 .thumb-mineirao {
 	float: left;
 	margin: 0 20px 0 0;
 }
+
+.center-home a{
+	color:#777;
+}
+	.center-home a:hover{
+		color:#fd740e;
+	}
+.slider-home{
+	background-image: url(../images/banner-mineirao2.jpg);
+}
+.slider-belo-horizonte{
+	background-image: url(../images/banner-mineirao2.jpg);
+}
+.slider-ginastica{
+	background-image: url(../images/ginastica.jpg);
+}
+.slider-volei{
+	background-image: url(../images/voley22.jpg);
+}
+.slider-praia{
+	background-image: url(../images/volei-praia.jpg);
+}
+.slider-futebol{
+	background-image: url(../images/futebol.jpg);
+}
+
+.container-interno{
+	margin-top: 60px;
+}
+.calendario{
+	margin-top: 30px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.calendario th{
+	line-height: 20px;
+	padding-right: 10px;
+}
+
+

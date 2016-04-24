@@ -1,5 +1,5 @@
 
-    <section id="main-slider" class="carousel">
+    <section id="main-slider" class="slider-belo-horizonte carousel">
       <div class="carousel-inner">
         <div class="item active">
             <div class="container">
@@ -32,6 +32,18 @@
               Belo Horizonte conta com importantes monumentos, parques e museus, como o Museu de Arte da Pampulha, o Museu de Artes e Ofícios, o Museu de Ciências Naturais da PUC Minas, o Circuito Cultural Praça da Liberdade, o Conjunto Arquitetônico da Pampulha, o Mercado Central e a Savassi, e eventos de grande repercussão, como o Festival Internacional de Teatro, Palco e Rua (FIT-BH), Festival Internacional de Curtas e o Encontro Internacional de Literaturas em Língua Portuguesa.
             </p>
 
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"> </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                   <a href="?pagina=calendario" class="btn btn-primary">Confira os eventos que acontecerão na cidade </a>
+                </div>
+
+                <div class="col-lg-4 col-md-4  col-sm-12">
+                </div>
+            </div>
+
+            
             <h3>Hóteis</h3>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">

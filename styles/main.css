@@ -47,8 +47,7 @@ a:focus {
   height: 80px;
   z-index: 99999;
 }
-#main-slider {
-  background-image: url(../images/slider-bg.jpg);
+#main-slider {  
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
