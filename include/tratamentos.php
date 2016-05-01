@@ -1,13 +1,14 @@
 <?php
 
   session_start();
-  if (!isset($_SESSION['usuario'])){
-    header("Location:?pagina=home");
-  }
 
   // pegando o nome da página pela variável enviada por get
   if(isset($_GET['pagina'])){
     $pagina = $_GET['pagina'];
+    
+    //if (!isset($_SESSION['usuario'])){
+      //$pagina = "home";
+    //}
   }
   else {
     $pagina = "home";

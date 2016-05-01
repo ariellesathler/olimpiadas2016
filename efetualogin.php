@@ -1,12 +1,12 @@
-﻿<?
-
+﻿<?php
 	session_start();
+	require_once("include/tratamentos.php");
 
-	include("includes/connect.php");
-
-	$email = $_POST['email'];
+	$email = $_POST['usuario'];
+	var_dump($_POST);
 	//$senha = md5($_POST['senha']);
 	$senha = $_POST['senha'];
+	var_dump($senha);
 
 	$sql = "SELECT * FROM usuarios WHERE email=? AND senha=?";
 	$stmt = $conn->prepare($sql); 
