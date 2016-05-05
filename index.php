@@ -50,7 +50,13 @@
                         <li><a href="?pagina=belohorizonte">Belo Horizonte</a></li>
                         <li><a href="?pagina=ajuda">Ajuda</a></li>
                         <li><a href="?pagina=ingressos">Ingressos</a></li>
+
+                        <?php if(isset($_SESSION['id'])){ ?>
+                        <li><a href="?pagina=minha_area">Minha área</a></li>
+                        <li><a href="?pagina=logout">Sair</a></li>
+                        <?php } else { ?>
                         <li><a href="?pagina=login">Login</a></li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>

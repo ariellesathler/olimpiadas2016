@@ -64,6 +64,16 @@
      exit;
     break;
 
+    case "atualizadados":
+     require_once("atualizadados.php");
+     exit;
+    break;
+
+    case "logout":
+     require_once("logout.php");
+     exit;
+    break;
+
 
   }
 

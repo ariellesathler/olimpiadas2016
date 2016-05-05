@@ -37,7 +37,8 @@ span{
 
 .slider-eventos{
 	background-image: url(../images/modalidades-banner.png);
-	background: contain;
+	background-size: auto !important;
+	background-repeat: repeat !important;
 }
 
 .container-interno{
