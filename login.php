@@ -15,11 +15,11 @@
                     <form role="form" action="?pagina=efetualogin" Method="POST">
                       <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="usuario" required>
+                        <input type="email" class="form-control" id="usuario" name="usuario" required>
                       </div>
                       <div class="form-group">
                         <label for="senha">Senha:</label>
-                        <input type="password" class="form-control" id="senha" required>
+                        <input type="password" class="form-control" id="senha" name="senha" required>
                       </div>
                       <button type="submit" class="btn btn-primary">Entrar</button>
                     </form>

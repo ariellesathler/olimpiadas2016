@@ -35,6 +35,11 @@ span{
 	background-image: url(../images/futebol.jpg);
 }
 
+.slider-eventos{
+	background-image: url(../images/modalidades-banner.png);
+	background: contain;
+}
+
 .container-interno{
 	margin-top: 60px;
 }

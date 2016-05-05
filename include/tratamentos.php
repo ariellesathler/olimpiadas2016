@@ -50,6 +50,19 @@
     case "ginastica-artistica":
       $titulo = "Ginástica Artística";
     break;
+    
+    case "minha_area":
+      $titulo = "Minha área";
+    break;
+
+    case "login":
+      $titulo = "Login";
+    break;
+
+    case "efetualogin":
+     require_once("efetualogin.php");
+     exit;
+    break;
 
 
   }

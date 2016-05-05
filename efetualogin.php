@@ -1,21 +1,24 @@
 ﻿<?php
-	session_start();
+	
 	require_once("include/tratamentos.php");
+	require_once("include/conexao.php");
 
 	$email = $_POST['usuario'];
-	var_dump($_POST);
 	//$senha = md5($_POST['senha']);
 	$senha = $_POST['senha'];
 	var_dump($senha);
 
-	$sql = "SELECT * FROM usuarios WHERE email=? AND senha=?";
+	$sql = "select * from usuario where email = ? and senha = ?";
 	$stmt = $conn->prepare($sql); 
+	
 	if ($stmt){
+		var_dump($stmt);
 		$stmt->bind_param('ss', $email, $senha);
 		$stmt->execute();
 		$result = $stmt->get_result(); 
 
 		$linha = $result->fetch_assoc(); 
+		var_dump($linha);
 
 		if($linha){
 		$_SESSION['nome'] = $linha['nome'];
@@ -23,9 +26,9 @@
 		$_SESSION['email'] = $linha['email'];
 		$_SESSION['usuario'] = $linha['usuario'];
 
-			header("location: minha_area.php");
+			header("location: ?pagina=minha_area");
 		} else {
-			header("location: login.php?msg=Usuário e/ou senha inválidos.");
+			header("location: ?pagina=login?msg=Usuário e/ou senha inválidos.");
 		}
 	}
 ?>

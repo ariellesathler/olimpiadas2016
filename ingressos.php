@@ -1,8 +1,4 @@
-<head>
-    <title>Ingressos</title>
-</head> 
-<body> 
-  
+
    <form name="IngressosForm" method="post"> 
        
         <h2>Compre aqui os seus ingressos para os jogos</h2>
@@ -35,25 +31,22 @@
         <div name="sport">
             <h3>Esportes: </h3>
             <form action="">
-            <input type="checkbox" name="vehicle" value="sport">Cerimônia de Abertura<br>
-            <input type="checkbox" name="vehicle" value="sport">Cerimônia de Encerramento<br>
-            <input type="checkbox" name="vehicle" value="sport">Atletismo<br>
-            <input type="checkbox" name="vehicle" value="sport">Atletismo (Maratona)<br>
-            <input type="checkbox" name="vehicle" value="sport">Atletismo (Marcha atlética)<br>
-            <input type="checkbox" name="vehicle" value="sport">Badminton<br>
-            <input type="checkbox" name="vehicle" value="sport">Basquetebol<br>
-            <input type="checkbox" name="vehicle" value="sport">Boxe<br>
-            <input type="checkbox" name="vehicle" value="sport">Canoagem slalom<br>
-            <input type="checkbox" name="vehicle" value="sport">Canoagem velocidade<br>
-            <input type="checkbox" name="vehicle" value="sport">Ciclismo BMX<br>
-            <input type="checkbox" name="vehicle" value="sport">Ciclismo de estrada<br>
-            <input type="checkbox" name="vehicle" value="sport">Ciclismo de pista<br>
-            <input type="checkbox" name="vehicle" value="sport">Ciclismo mountain bike<br>
-            <input type="checkbox" name="vehicle" value="sport">Esgrima<br>
-            <input type="checkbox" name="vehicle" value="sport">Futebol<br>
-            <input type="checkbox" name="vehicle" value="sport">Ginástica artística<br>
-            <input type="checkbox" name="vehicle" value="sport">Ginástica de trampolim<br>
-            <input type="checkbox" name="vehicle" value="sport">Ginástica Gala<br>
+            <?php
+             $sql = "select * from eventos order by datahora";
+
+             $result = $conn->query($sql);
+             if ($result->num_rows >0){
+
+                while($row = $result->fetch_assoc()){
+
+                        echo "<div>". $row['nome'];
+                        echo "<br>". $row['local'];
+                        echo "<br>". $row['datahora']. "<a href='?pagina=compraingresso&id=".$row['idEvento']."'>Comprar</a></div>";                            
+                    }
+             }
+
+
+            ?>
                 
             </form>
         </div>
@@ -76,6 +69,3 @@
           <input type="button" value="Comprar" /> 
     </label>  
    
-
-   
-</body> 

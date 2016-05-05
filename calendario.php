@@ -1,7 +1,5 @@
 <script src="scripts/calendario.js"></script>
-<section id="sp-portfolio-wrapper" class=" ">
 	<div class="container container-interno">
-	   <div class="row-fluid" id="portfolio">
         <div class="box first">
         	<div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12">
@@ -20,7 +18,5 @@
         		<div class="col-md-6 col-lg-7 col-sm-6">  
         			<div id="calendarioEventos"></div>
         		</div>
-    		</div>
-    	</div>
-</div>
-</section>
+    		</div>    	
+    </div>
