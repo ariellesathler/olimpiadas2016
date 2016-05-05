@@ -57,4 +57,46 @@ span{
 	padding-right: 10px;
 }
 
+/****Ajuda****/
+.faq {
+}
+
+.wrap-accordion {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+  .wrap-accordion a {
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+    color:#00AEE6;
+  }
+    
+  .wrap-accordion p {
+    text-align: justify;
+  }
+
+    .wrap-accordion a img {
+      margin-right: 2px;
+      -webkit-transition: transform 300ms ease;
+      transition: transform 300ms ease;
+      margin-bottom: -6px;
+    }
+
+      .wrap-accordion a.active img {
+        transform: rotateZ(90deg);
+      }
+
+  .wrap-accordion article {
+    display: none;
+    padding: 10px 0;
+  }
+
+    .wrap-accordion article p {
+      font-size: 14px;
+    }
+
 

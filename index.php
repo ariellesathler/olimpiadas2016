@@ -113,7 +113,9 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="scripts/jquery-1.12.0.min.js"></script>
-    <script src="scripts/main.js"></script>
+   <!-- <script src="scripts/OLD/jquery-1.12.0.min.js"></script>-->
+    <script src="scripts/OLD/jquery-1.12.0.min.js"></script>    
+    <script src="scripts/OLD/main.js"></script>
+    <!--<script src="scripts/main.js"></script>-->
   </body>
 </html>

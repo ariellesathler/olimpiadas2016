@@ -2,9 +2,6 @@
       <div class="carousel-inner">
         <div class="item active">
             <div class="container">
-                <div class="carousel-content">
-                    <h1>Minha área</h1>
-                </div>
             </div>
         </div><!--/.item-->
       </div><!--/.carousel-inner-->
@@ -35,8 +32,9 @@
 
                     <div class="col-lg-12">
                         <h4><?php echo $linha['nome']; ?></h4>
+                        <p><?php echo $linha['descricao']; ?></p>
                         <p><?php echo $linha['local']; ?></p>
-                        <p><?php echo $linha['datahora']; ?></p>
+                        <p><?php echo date('d/m/Y H:i', strtotime($linha['datahora'])); ?></p>
                     </div>
 
                     <hr>

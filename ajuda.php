@@ -6,7 +6,9 @@
             <div class="col-md-1 col-lg-1 ">    
             </div>  
             <div class="col-md-10 col-lg-10 col-sm-12">    
-             <h1>Ajuda</h1>        
+              <div class="center">
+                 <h2>Ajuda</h2>
+              </div>        
               <div class="wrap-accordion" id="faq-1">
                 <div>
                   <a href="#" data-id="1" class="">

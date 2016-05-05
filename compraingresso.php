@@ -7,8 +7,6 @@
 	
 	$stmt = $conn->prepare($sql); 	
 
-	var_dump($stmt);
-
 	if ($stmt){
 		$stmt->bind_param('ii', $idUsuario, $id);
 		$stmt->execute();
@@ -17,7 +15,7 @@
 
 		if($linhasAfetadas)
 		{
-			echo "comprou";
+			header("location: ?pagina=minha_area");
 		}
 	}
 
