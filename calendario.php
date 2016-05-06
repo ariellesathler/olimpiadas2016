@@ -4,7 +4,7 @@
         	<div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12">
             	<div class="center">
-            		<h2>Calendário de Eventos</h2>
+            		<h2 style="margin-bottom:0px;">Calendário de Eventos</h2>
             		<p class="lead">Clique nas datas para visualizar os eventos referêntes à ela:</p>
             	</div>
             </div>

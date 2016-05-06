@@ -33,13 +33,13 @@
             </p>
 
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12"> </div>
+                <div class="col-lg-4 col-md-4"> </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
                    <a href="?pagina=calendario" class="btn btn-primary">Confira os eventos que acontecerão na cidade </a>
                 </div>
 
-                <div class="col-lg-4 col-md-4  col-sm-12">
+                <div class="col-lg-4 col-md-4">
                 </div>
             </div>
 

@@ -45,9 +45,8 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li <?php if($pagina == "calendario"){ ?> class="active" <?php } ?>><a href="?pagina=calendario">Calendário</a></li>
                         <li <?php if($pagina == "belohorizonte"){ ?> class="active" <?php } ?>><a href="?pagina=belohorizonte">Belo Horizonte</a></li>
-                        <li <?php if($pagina == "ajuda"){ ?> class="active" <?php } ?>><a href="?pagina=ajuda">Ajuda</a></li>
+                        <li <?php if($pagina == "calendario"){ ?> class="active" <?php } ?>><a href="?pagina=calendario">Calendário</a></li>                        
                         <li <?php if($pagina == "ingressos"){ ?> class="active" <?php } ?>><a href="?pagina=ingressos">Ingressos</a></li>
 
                         <?php if(isset($_SESSION['id'])){ ?>
@@ -61,6 +60,7 @@
                         <?php } else { ?>
                         <li <?php if($pagina == "login"){ ?> class="active" <?php } ?>><a href="?pagina=login">Login</a></li>
                         <?php } ?>
+                         <li <?php if($pagina == "ajuda"){ ?> class="active" <?php } ?>><a href="?pagina=ajuda">Ajuda</a></li>
                     </ul>
                 </div>
             </div>

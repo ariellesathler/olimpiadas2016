@@ -60,7 +60,7 @@
              <div class="row">
                 <div class="col-lg-6">
                     <label>Data do evento: </label>
-                    <input type="text" class="form-control" name="datadoevento" value="">
+                    <input type="text" class="form-control" name="datadoevento" value="" maxlength="16" OnKeyPress="formatar('##/##/#### ##:##', this);">
                 </div>  
                 </div>  
 

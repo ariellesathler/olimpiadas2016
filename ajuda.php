@@ -3,9 +3,9 @@
 
       <div class="faq">
           <div class="row">    
-            <div class="col-md-1 col-lg-1 ">    
+            <div class="col-md-2 col-lg-2 ">    
             </div>  
-            <div class="col-md-10 col-lg-10 col-sm-12">    
+            <div class="col-md-8 col-lg-8 col-sm-12">    
               <div class="center">
                  <h2>Ajuda</h2>
               </div>        
@@ -73,9 +73,9 @@
                 <div class="clearfix"></div>
               </div><!-- fim wrap accordion -->
                 
-                <div class="wrap-accordion" id="faq-5">
+                <div class="wrap-accordion" id="faq-6">
                 <div>
-                  <a href="#" data-id="5" class="">
+                  <a href="#" data-id="6" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
                     Ajudando a cadastrar um evento</a>
                   <article>
@@ -84,9 +84,9 @@
                 </div>
                 <div class="clearfix"></div>
               </div><!-- fim wrap accordion -->
-                <div class="wrap-accordion" id="faq-5">
+                <div class="wrap-accordion" id="faq-7">
                 <div>
-                  <a href="#" data-id="5" class="">
+                  <a href="#" data-id="7" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
                    Ajudando a visualizar um evento</a>
                   <article>
