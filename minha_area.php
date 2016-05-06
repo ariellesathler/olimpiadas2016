@@ -93,18 +93,18 @@
                          <div class="row">
                             <div class="col-lg-6">
                                 <label>CPF</label>
-                                <input type="text" class="form-control" name="cpf" value="<?php echo $linha_usuario['cpf']; ?>">
+                                <input type="text" class="form-control" name="cpf" maxlength="14" onKeyPress="formatar('###.###.###-##', this);" value="<?php echo $linha_usuario['cpf']; ?>">
                             </div>  
 
                             <div class="col-lg-6">
                                 <label>Data de nascimento</label>
-                                <input type="text" class="form-control" name="datanascimento" value="<?php echo $linha_usuario['datanascimento']; ?>">
+                                <input type="text" class="form-control" name="datanascimento"  maxlength="10"  OnKeyPress="formatar('##/##/####', this);"  value="<?php echo $linha_usuario['datanascimento']; ?>">
                             </div>  
                             </div>  
 
                         <div class="row">
                             <div class="col-lg-12 text-right">
-                                <input type="submit" class="btn btn-primary" value="Atualizar">
+                                <input type="submit" class="btn btn-primary btn-block" value="Atualizar">
                             </div>
                         </div>  
                     </div>  

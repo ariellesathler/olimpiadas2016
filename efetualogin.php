@@ -4,8 +4,8 @@
 	require_once("include/conexao.php");
 
 	$email = $_POST['usuario'];
-	//$senha = md5($_POST['senha']);
-	$senha = $_POST['senha'];
+	$senha = md5($_POST['senha']);
+	//$senha = $_POST['senha'];
 	var_dump($senha);
 
 	$sql = "select * from usuario where email = ? and senha = ?";
@@ -25,10 +25,12 @@
 		$_SESSION['id'] = $linha['id'];
 		$_SESSION['email'] = $linha['email'];
 		$_SESSION['usuario'] = $linha['usuario'];
+		$_SESSION['role'] = $linha['role'];
 
 			header("location: ?pagina=minha_area");
 		} else {
-			header("location: ?pagina=login?msg=Usuário e/ou senha inválidos.");
+			var_dump($senha);
+			header("location: ?pagina=login&msg=Usuário e/ou senha inválidos.");
 		}
 	}
 ?>

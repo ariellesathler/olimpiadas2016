@@ -45,17 +45,21 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="?pagina=home"><i class="icon-home"></i></a></li>
-                        <li><a href="?pagina=calendario">Calendário</a></li>
-                        <li><a href="?pagina=belohorizonte">Belo Horizonte</a></li>
-                        <li><a href="?pagina=ajuda">Ajuda</a></li>
-                        <li><a href="?pagina=ingressos">Ingressos</a></li>
+                        <li <?php if($pagina == "calendario"){ ?> class="active" <?php } ?>><a href="?pagina=calendario">Calendário</a></li>
+                        <li <?php if($pagina == "belohorizonte"){ ?> class="active" <?php } ?>><a href="?pagina=belohorizonte">Belo Horizonte</a></li>
+                        <li <?php if($pagina == "ajuda"){ ?> class="active" <?php } ?>><a href="?pagina=ajuda">Ajuda</a></li>
+                        <li <?php if($pagina == "ingressos"){ ?> class="active" <?php } ?>><a href="?pagina=ingressos">Ingressos</a></li>
 
                         <?php if(isset($_SESSION['id'])){ ?>
-                        <li><a href="?pagina=minha_area">Minha área</a></li>
+
+                        <?php if($_SESSION['role'] == "admin"){ ?>
+                        <li <?php if($pagina == "cadastro-evento"){ ?> class="active" <?php } ?>><a href="?pagina=cadastro-evento">Cadastrar Eventos</a></li>
+                        <?php } ?>
+
+                        <li <?php if($pagina == "minha_area"){ ?> class="active" <?php } ?>><a href="?pagina=minha_area">Minha área</a></li>
                         <li><a href="?pagina=logout">Sair</a></li>
                         <?php } else { ?>
-                        <li><a href="?pagina=login">Login</a></li>
+                        <li <?php if($pagina == "login"){ ?> class="active" <?php } ?>><a href="?pagina=login">Login</a></li>
                         <?php } ?>
                     </ul>
                 </div>

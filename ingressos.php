@@ -5,31 +5,22 @@
          <p class="lead">Garanta os seus ingressos para os jogos</p>
       </div>
       <div class="row"> 
-         <section class="col-lg-8 col-lg-offset-2 col-md-6 col-md-offset-3 col-md-12 col-sm-8">
-            <div class="col-lg-3 col-md-3 col-sm-2">
-               <a href="?pagina=ingressos&idModalidade=1" class="btn btn-primary btn-block">Ginástica Artítica </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-2">
-               <a href="?pagina=ingressos&idModalidade=2" class="btn btn-primary btn-block">Futebol </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-2">
-               <a href="?pagina=ingressos&idModalidade=3" class="btn btn-primary btn-block">Voleibol </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-2">
-               <a href="?pagina=ingressos&idModalidade=4" class="btn btn-primary btn-block">Vôlei de Praia </a>
-            </div>
+         <section class="col-lg-12 col-md-12 col-sm-12 text-center">
+               <a href="?pagina=ingressos" class="btn btn-primary">Todas </a>
+               <a href="?pagina=ingressos&idModalidade=1" class="btn btn-primary ">Ginástica Artítica </a>
+               <a href="?pagina=ingressos&idModalidade=2" class="btn btn-primary ">Futebol </a>
+               <a href="?pagina=ingressos&idModalidade=3" class="btn btn-primary ">Voleibol </a>
+               <a href="?pagina=ingressos&idModalidade=4" class="btn btn-primary ">Vôlei de Praia </a>
          </section>
       </div>
       <div class="clearfix"></div>
-     
+     <div class='row' style='margin-top:50px;'>
       <?php
 
       if(isset($_GET['idModalidade']))
       {
          $idModalidade = $_GET['idModalidade'];
-         $sql = "select * from eventos order by datahora where idModalidade = $idModalidade";
-
-         var_dump($sql);
+         $sql = "select * from eventos where idModalidade = $idModalidade order by datahora";
       }
       else
       {
@@ -41,8 +32,7 @@
 
           while($row = $result->fetch_assoc()){
 
-                  echo "<div class='row' style='margin-top:50px;'> 
-                  <div class='col-md-3 col-lg-3 col-sm-12'>";
+                  echo "<div class='col-md-3 col-lg-3 col-sm-12'>";
                      echo "<span>". $row['nome'] . "</span>";
                      echo "<br> ". $row['descricao'];
                      echo "<br> ". $row['local'];
@@ -53,10 +43,10 @@
                      }
                      else{
                         echo"<a style='margin-top:20px;' class='btn btn-warning btn-block' href='?pagina=login'>Comprar</a></div>"; 
-                     }   
-                     echo "</div>";                     
+                     }                      
               }
        }
       ?>
+       </div>
    </div>
 </section>

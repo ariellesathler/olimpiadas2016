@@ -1,6 +1,6 @@
 <section class="container container-interno">
    <div class="box first">
-      <form class="row" action="?pagina=atualizadados" method="post">
+      <form class="row" action="?pagina=cadastrausuario" method="post" name="form1">
          <div class="col-lg-6 col-lg-offset-3">
             <div class="row">
                 <div class="col-lg-12">
@@ -8,54 +8,39 @@
                      <h2>Cadastre-se</h2>
                     </div>
                     <div class="clearfix"></div>
-                    
-                    <?php
 
-                        $sql_usuario = "select * from usuario where id = ?";
-                        $stmt_usuario = $conn->prepare($sql_usuario); 
-
-                        if ($stmt_usuario){
-                            $stmt_usuario->bind_param('i', $_SESSION['id']);
-                            $stmt_usuario->execute();
-                            $result = $stmt_usuario->get_result(); 
-
-                            $linha_usuario = $result->fetch_assoc();
-                        }
-
-                    ?>
-
-                    <label>Nome</label>
-                    <input type="text" class="form-control" name="nome" value="<?php echo $linha_usuario['nome']; ?>">
+                    <label>Nome*</label>
+                    <input type="text" class="form-control" name="nome" required>
                 </div>  
             </div>  
 
             <div class="row">
                 <div class="col-lg-6">
-                    <label>E-mail</label>
-                    <input type="text" class="form-control" name="email" value="<?php echo $linha_usuario['email']; ?>">
+                    <label>E-mail*</label>
+                    <input type="text" class="form-control" name="email" required >
                 </div>  
 
                 <div class="col-lg-6">
-                    <label>Senha</label>
-                    <input type="password" class="form-control" name="senha" value="<?php echo $linha_usuario['senha']; ?>">
+                    <label>Senha*</label>
+                    <input type="password" class="form-control" name="senha" required>
                 </div>  
             </div>  
 
              <div class="row">
                 <div class="col-lg-6">
                     <label>CPF</label>
-                    <input type="text" class="form-control" name="cpf" value="<?php echo $linha_usuario['cpf']; ?>">
+                    <input type="text" maxlength="14" class="form-control" name="cpf" onKeyPress="formatar('###.###.###-##', this);" >
                 </div>  
 
                 <div class="col-lg-6">
                     <label>Data de nascimento</label>
-                    <input type="text" class="form-control" name="datanascimento" value="<?php echo $linha_usuario['datanascimento']; ?>">
+                    <input type="text" class="form-control" name="datanascimento" maxlength="10" OnKeyPress="formatar('##/##/####', this);">
                 </div>  
                 </div>  
 
-            <div class="row">
+            <div class="row" style="margin-top:20px;">
                 <div class="col-lg-12 text-right">
-                    <input type="submit" class="btn btn-primary" value="Atualizar">
+                    <input type="submit" class="btn btn-primary btn-block" value="Cadastrar">
                 </div>
             </div>  
         </div>  

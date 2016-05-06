@@ -53,4 +53,8 @@ jQuery(function($) {
 			return false;
 		});
 	});
+
+	// date
+
+	$('.datepicker').datepicker();
 });

@@ -69,6 +69,11 @@
      exit;
     break;
 
+    case "eventos-acoes":
+     require_once("eventos-acoes.php");
+     exit;
+    break;
+
     case "logout":
      require_once("logout.php");
      exit;
