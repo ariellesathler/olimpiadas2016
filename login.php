@@ -21,7 +21,7 @@
                         <label for="senha">Senha:</label>
                         <input type="password" class="form-control" id="senha" name="senha" required>
                       </div>
-                      <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                      <input type="submit" class="btn btn-primary btn-block" value="Entrar">
                       <a href="?pagina=cadastro-usuario" class="btn btn-warning btn-block"> Se Cadastrar</a>
                     </form>
                 </div>
