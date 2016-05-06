@@ -13,9 +13,9 @@
                 <div>
                   <a href="#" data-id="1" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
-                    Lorem ipsum dolor sit amet?</a>
+                    Ajudando a acessar e visualizar</a>
                   <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in sem sit amet ante congue tempor. Cras rutrum eros a nulla egestas feugiat. Donec tortor nisi, dapibus eget sagittis vel, pellentesque at sem. Donec nulla tellus, elementum ac efficitur sed, ullamcorper a tortor. Suspendisse placerat libero dui, ut faucibus metus auctor ac. Suspendisse sem mauris, congue in ligula non, consequat suscipit tortor. Proin sit amet tempus dolor, a placerat lectus. Aliquam non ex et ex suscipit eleifend. Phasellus tincidunt eleifend nisl nec vestibulum. Maecenas quis iaculis massa. Nullam non ligula urna. Quisque dignissim in ipsum sit amet porta. </p>
+                    <p>Este site foi desenvolvido para ser acessado a partir dos navegadores usuais. Melhores resultados são obtidos utilizando o Internet Explorer 7.0 ou superior, Firefox ou Google Chrome. Além disso, o site responsivo facilitando o acesso através de dispositivos mobile. </p>
                   </article>
                 </div>
                 <div class="clearfix"></div>
@@ -26,9 +26,9 @@
                 <div>
                   <a href="#" data-id="2" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
-                    Cras scelerisque nisl at ipsum sollicitudin lacinia?</a>
+                    Ajudando a escolher</a>
                   <article>
-                    <p> Cras scelerisque nisl at ipsum sollicitudin lacinia. Aliquam ut enim faucibus, dictum dui in, sodales nisl. Maecenas vel finibus sem. Quisque at nisi a odio aliquet dignissim. Aenean tempus nulla sed dolor ultrices fringilla. Ut non magna vitae nunc ultrices dignissim. Nullam iaculis quis justo a tempus. Nunc bibendum placerat magna, eu tempus massa mattis ut. Ut faucibus fermentum elit. Suspendisse pulvinar consequat metus, vel vulputate orci fringilla a. Phasellus efficitur, metus id cursus gravida, lorem erat maximus tortor, finibus efficitur nisi mi at tortor. Maecenas eget ornare orci, vulputate malesuada mauris. </p>
+                    <p> O conteúdo está organizado de acordo com o Menu Principal. A escolha das informações serão através dele onde ao clicar serão retornadas as páginas desejadas.</p>
                   </article>
                 </div>
                 <div class="clearfix"></div>
@@ -39,9 +39,9 @@
                 <div>
                   <a href="#" data-id="3" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
-                    Vivamus tempor libero in nibh consectetur?</a>
+                    Ajudando a entrar no sistema</a>
                   <article>
-                    <p>Vivamus tempor libero in nibh consectetur, a tincidunt nisi congue. Suspendisse potenti. Nullam eleifend semper suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac arcu feugiat orci pretium tincidunt. Praesent nisl nibh, ultricies ac ullamcorper in, consequat sed lectus. Ut eget urna tellus. Morbi quis felis vitae tellus scelerisque scelerisque. Mauris placerat lectus sit amet eros eleifend facilisis. Duis commodo commodo massa, nec posuere velit. Integer in turpis mollis, aliquam purus non, condimentum ipsum. Pellentesque consectetur imperdiet erat nec semper. Morbi quis accumsan purus, scelerisque laoreet nisi. </p>
+                    <p>Para acessar sua conta basta acessar a opção “Login” disponível no Menu Principal e confirmar sua entrada com o botão “Entrar”.</p>
                   </article>
                 </div>
                 <div class="clearfix"></div>
@@ -52,9 +52,9 @@
                 <div>
                   <a href="#" data-id="4" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
-                    Praesent sed vestibulum lorem, eu tempus elit?</a>
+                    Ajudando a se cadastrar no sistema</a>
                   <article>
-                    <p>Praesent sed vestibulum lorem, eu tempus elit. Sed et sagittis purus. Etiam a volutpat diam, nec mattis ante. Pellentesque sem nibh, consectetur vel ultricies nec, bibendum nec lectus. Sed odio purus, suscipit id viverra in, ullamcorper a sapien. In eu tempor purus, ut malesuada nibh. Fusce dapibus tristique aliquam. Nam tincidunt feugiat mauris ut congue. Proin eget nibh id velit pulvinar tempor et in odio. Vestibulum eu hendrerit est, eu commodo felis. Curabitur consectetur tincidunt accumsan. Suspendisse eget dolor eget velit lacinia ullamcorper. </p>
+                    <p>Para criar uma conta no sistema basta acessar a opção “Login” disponível no Menu Principal e clicar sobre o botão “Se Cadastrar”. Após isso você será redirecionado para página de Cadastro de Usuário. Nesta página deverá ser inserido seus dados pessoais, verificando a obrigatoriedade destes campos, e finalizando o cadastro através do botão “Atualizar”.</p>
                   </article>
                 </div>
                 <div class="clearfix"></div>
@@ -65,9 +65,32 @@
                 <div>
                   <a href="#" data-id="5" class="">
                     <img src="images/seta-ajuda.jpg" alt="">
-                    Phasellus ac eros quis enim viverra varius?</a>
+                    Ajudando a comprar um ingresso</a>
                   <article>
-                    <p>Phasellus ac eros quis enim viverra varius. Nullam egestas libero a ex pharetra, sed cursus lacus blandit. Aliquam porttitor posuere risus. Vestibulum malesuada quam sit amet aliquam efficitur. Integer venenatis est nec tellus interdum iaculis. Suspendisse tristique, justo sit amet venenatis ullamcorper, nisl diam vestibulum felis, condimentum convallis quam magna vitae massa. Sed orci arcu, rutrum sit amet dictum id, molestie et lectus. Morbi vitae magna sagittis, bibendum tellus in, faucibus dolor. Curabitur tristique felis vehicula arcu consequat, vitae consequat enim sollicitudin. Praesent dictum augue id nunc lacinia, elementum blandit mi gravida. Aliquam vehicula risus vel gravida sodales. Sed iaculis nisl sit amet ante rutrum cursus. Morbi interdum vitae eros a ullamcorper. Integer et enim orci. Aenean iaculis elit et laoreet malesuada. </p>
+                    <p>Para comprar um ingresso basta acessar a opção “Ingressos” disponível no Menu Principal. Fazer a escolha dos jogos desejados e confirmar sua compra com o botão “Comprar”. </p>
+                  </article>
+                </div>
+                <div class="clearfix"></div>
+              </div><!-- fim wrap accordion -->
+                
+                <div class="wrap-accordion" id="faq-5">
+                <div>
+                  <a href="#" data-id="5" class="">
+                    <img src="images/seta-ajuda.jpg" alt="">
+                    Ajudando a cadastrar um evento</a>
+                  <article>
+                    <p>Para cadastrar um evento deve-se fazer o login no sistema. Após isso você será redirecionado para página Minha Área onde estará disponível a opção de cadastro de eventos.  Ao ser redirecionado a página Cadastro Evento pós basta inserir seus dados do evento e finalizar o cadastro através do botão “Cadastrar”. </p>
+                  </article>
+                </div>
+                <div class="clearfix"></div>
+              </div><!-- fim wrap accordion -->
+                <div class="wrap-accordion" id="faq-5">
+                <div>
+                  <a href="#" data-id="5" class="">
+                    <img src="images/seta-ajuda.jpg" alt="">
+                   Ajudando a visualizar um evento</a>
+                  <article>
+                    <p>Basta acessar a opção “Calendário” disponível no Menu Principal e clicar sobre a data desejada.</p>
                   </article>
                 </div>
                 <div class="clearfix"></div>
