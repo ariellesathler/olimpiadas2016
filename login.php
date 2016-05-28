@@ -27,6 +27,36 @@
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-4">
                 </div>
-            </div>
+            </div>            
+          <!--
+            Below we include the Login Button social plugin. This button uses
+            the JavaScript SDK to present a graphical Login button that triggers
+            the FB.login() function when clicked.
+          -->
+
+          <fb:login-button  class="btn btn-block" scope="public_profile,email" onlogin="checkLoginState();">
+          </fb:login-button>
+
+          <div id="status" class="btn btn-block">
+          </div>
         </div>
 </div>
+
+<script type="text/javascript">
+  function checkLoginState() {
+  FB.login(function(response) {
+  if (response.status === 'connected') {
+    // Logged into your app and Facebook.
+      <?php echo 'teste' ?>
+    header("location: ?pagina=minha_area");?>
+  } else if (response.status === 'not_authorized') {
+    // The person is logged into Facebook, but not your app.
+  } else {
+    // The person is not logged into Facebook, so we're not sure if
+    // they are logged into this app or not.
+  }
+});
+}
+
+</script>
+

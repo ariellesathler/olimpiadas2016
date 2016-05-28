@@ -1,3 +1,16 @@
+<?php
+
+    session_start();
+    //VERIFICA SE O USUÁRIO ESTÁ LOGADO. SENÃO redireciona para a página de login (index.php)
+    //informando que é necessário estar logado. 
+    if (!isset($_SESSION['id'])){
+        header("location: ?pagina=home");
+
+        var_dump('expression');
+    }
+
+?>
+
     <section id="main-slider" class="slider-eventos carousel">
       <div class="carousel-inner">
         <div class="item active">

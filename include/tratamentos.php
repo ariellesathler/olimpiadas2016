@@ -59,6 +59,10 @@
       $titulo = "Login";
     break;
 
+    case "quadro-medalhas":
+      $titulo = "Quadro de Medalhas";
+    break;
+
     case "efetualogin":
      require_once("efetualogin.php");
      exit;

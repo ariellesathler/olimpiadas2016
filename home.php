@@ -4,7 +4,7 @@
         <div class="item active">
             <div class="container">
                 <div class="carousel-content">
-                    <h1>Belo Horizonte nas Olimpiadas</h1>
+                    <h1>Belo Horizonte nas Olimpíadas</h1>
                     <p class="lead"><br>
                     Belo Horizonte é a moderna capital de Minas Gerais fundada em 12 de dezembro de 1897 atualmente é a 5ª mais populosa cidade brasileira. A cidade é mundialmente conhecida e exerce significativa influência nacional e até internacional, seja do ponto de vista cultural, econômico ou político.
                     <br><br>
