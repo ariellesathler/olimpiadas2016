@@ -2,6 +2,7 @@
 
   require_once("include/conexao.php");
   require_once("include/tratamentos.php");
+  require_once("include/facebook-php-sdk-v4-5.0.0/src/Facebook/autoload.php");
 
 ?>
 

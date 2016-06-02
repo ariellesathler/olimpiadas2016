@@ -1,6 +1,6 @@
 <?php
 
-  	require_once("include/conexao.php");
+  require_once("include/conexao.php");
 
 	$nome = $_POST['nome'];
 	$email = $_POST['email'];
@@ -19,12 +19,16 @@
 		$result = $stmt->get_result(); 
 		$linhasAfetadas = $stmt->affected_rows;
 
-
 		if($linhasAfetadas)
 		{
 			header("location: ?pagina=login");
-
 		}
+		else {
+			echo "ERROR: ".mysqli_error($conn);
+		}
+	}
+	else {
+		echo mysqli_error($conn);
 	}
 
 

@@ -78,6 +78,11 @@
      exit;
     break;
 
+    case "cadastrausuario":
+     require_once("cadastrausuario.php");
+     exit;
+    break;
+
     case "logout":
      require_once("logout.php");
      exit;
