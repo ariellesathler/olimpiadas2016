@@ -36,8 +36,7 @@ function carregarPontos() {
 			
 			var marker = new google.maps.Marker({
 				position: new google.maps.LatLng(ponto.Latitude, ponto.Longitude),
-				title: "Meu ponto personalizado! :-D",
-				icon: 'img/marcador.png'
+				icon: 'images/marcador.png'
 			});
 			
 			var myOptions = {

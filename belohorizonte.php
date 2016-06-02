@@ -67,8 +67,9 @@
                     <br><a href="http://www.alliahotels.com.br/bristol/belo-horizonte/jaragua-hotel" class="btn btn-success" target="_blank">Site</a>
                 </div>
             </div>
-            <div id="mapa" style="height: 500px; width: 700px">
-        </div>
+            <br>
+            <br>
+        <center><div id="mapa" style="height: 500px; width: 800px"></div>
 		
 		<script src="js/jquery.min.js"></script>
  
@@ -82,7 +83,7 @@
 		<script src="js/markerclusterer.js"></script>
  
         <!-- Arquivo de inicialização do mapa -->
-		<script src="js/mapa.js"></script>
+		<script src="js/mapa.js"></script></center>
         </div> <!-- fim box first -->
 
     </div><!-- fim container -->
