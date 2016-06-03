@@ -38,7 +38,7 @@ function carregarPontos() {
 				position: new google.maps.LatLng(ponto.Latitude, ponto.Longitude),
 				icon: 'images/marcador.png'
 			});
-			
+            
 			var myOptions = {
 				content: "<p>" + ponto.Descricao + "</p>",
 				pixelOffset: new google.maps.Size(-150, 0)

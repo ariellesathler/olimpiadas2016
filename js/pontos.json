@@ -46,5 +46,23 @@
     	"Latitude": -19.8626759,
     	"Longitude": -43.9763674,
 		"Descricao": "Juscelino Grill"
+  	},
+  	{
+		"Id": 9,
+    	"Latitude": -19.865867,
+    	"Longitude": -43.9711315,
+		"Descricao": "MINEIRÃO"
+  	},
+    {
+		"Id": 10,
+    	"Latitude": -19.86243154,
+    	"Longitude": -43.9725852,
+		"Descricao": "MINEIRINHO"
+  	},
+    {
+		"Id": 11,
+    	"Latitude": -19.85887961,
+    	"Longitude": -43.97893667,
+		"Descricao": "Igreja de São Francisco de Assis"
   	}
 ]
