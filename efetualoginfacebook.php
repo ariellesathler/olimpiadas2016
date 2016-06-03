@@ -96,30 +96,53 @@
 	// You can redirect them to a members-only page.
 	//header('Location: https://example.com/members.php');
 
-	$role = "facebook";
+	$sql_exists = "SELECT id, email FROM usuario WHERE email = '".$user['email']."' LIMIT 1";
+	$result_exists = $conn->query($sql_exists);
+  
+  if ($result_exists->num_rows >0){
 
+  	$linha = $result_exists->fetch_assoc(); 
 
+		$_SESSION['nome'] = $linha['nome'];
+		$_SESSION['id'] = $linha['id'];
+		$_SESSION['email'] = $linha['email'];
+		$_SESSION['usuario'] = $linha['usuario'];
+		$_SESSION['role'] = $linha['role'];
 
-	$sql = "INSERT INTO usuario (email, nome, role)VALUES (?,?,?)";
-	
-	$stmt = $conn->prepare($sql); 	
+		header("location: http://localhost/olimpiadas2016?pagina=minha_area");
 
-	if ($stmt){
-		$stmt->bind_param('sss', $user['email'], $user['name'], $role);
-		$stmt->execute();
-		$result = $stmt->get_result(); 
-		$linhasAfetadas = $stmt->affected_rows;
+  }
+  else { 
 
-		if($linhasAfetadas)
-		{
-			header("location: http://localhost/olimpiadas2016?pagina=minha-conta");
+		$role = "facebook";
+
+		$sql = "INSERT INTO usuario (email, nome, role)VALUES (?,?,?)";
+		
+		$stmt = $conn->prepare($sql); 	
+
+		if ($stmt){
+			$stmt->bind_param('sss', $user['email'], $user['name'], $role);
+			$stmt->execute();
+			$result = $stmt->get_result(); 
+			$linhasAfetadas = $stmt->affected_rows;
+
+			if($linhasAfetadas)
+			{
+
+				$_SESSION['nome'] = $user['name'];
+				$_SESSION['id'] = mysqli_insert_id($conn);
+				$_SESSION['email'] = $user['email'];
+				$_SESSION['role'] = 'facebook';
+
+				header("location: http://localhost/olimpiadas2016?pagina=minha_area");
+			}
+			else {
+				echo "ERROR: ".mysqli_error($conn);
+			}
 		}
 		else {
-			echo "ERROR: ".mysqli_error($conn);
+			echo mysqli_error($conn);
 		}
-	}
-	else {
-		echo mysqli_error($conn);
 	}
 
 ?>
